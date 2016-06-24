@@ -2,6 +2,8 @@ body {
     background-image: url("http://i.imgur.com/rPZXG8F.png");
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -62,8 +64,8 @@ body {
 
 .shepIMG {
     position: absolute;
-    width: 20vw;
+    width: 24vw;
     transform: scaleX(-1);
-    left: 76vw;
-    top: 3.5vw;
+    left: 73vw;
+    bottom: -5vw;
 }
