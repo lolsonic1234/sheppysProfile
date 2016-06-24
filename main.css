@@ -1,7 +1,15 @@
+body {
+    background-image: url("http://i.imgur.com/rPZXG8F.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 .rulesPage{
     position: absolute;
     background-color: #33337f;
-    top: 15%;
+    top: 8vw;
     width: 50vw;
     margin-left: 21.5vw;
     height: 40vw;
@@ -24,7 +32,38 @@
 }
 
 .button{
-    float: left;
-    margin-left: 18vw;
+    margin-top: 10vw;
+    margin-left: 3vw;
     font-size: 1.5vw;
+    font-family: "Arial Black";
+    color: #96f;
+    width: 12vw;
+    height: 5vw;
+    background-color: #33337f;
+    border-radius: 5px;
+}
+
+.a {
+    position: absolute;
+    margin-top: 0.4vw;
+    margin-left: 1.5vw;
+}
+
+.b {
+    position: absolute;
+    margin-top: 0.4vw;
+    margin-left: 3.3vw;
+}
+
+.c {
+    position: absolute;
+    margin-top: 0.4vw;
+}
+
+.shepIMG {
+    position: absolute;
+    width: 20vw;
+    transform: scaleX(-1);
+    left: 76vw;
+    top: 6.5vw;
 }
